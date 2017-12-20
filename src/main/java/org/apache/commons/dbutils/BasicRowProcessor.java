@@ -187,7 +187,7 @@ public class BasicRowProcessor implements RowProcessor {
      * key.toString().toLowerCase()
      * </pre>
      */
-    private static class CaseInsensitiveHashMap extends LinkedHashMap<String, Object> {
+    public static class CaseInsensitiveHashMap extends LinkedHashMap<String, Object> {
         /**
          * The internal mapping from lowercase keys to the real keys.
          *
